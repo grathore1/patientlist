@@ -1,0 +1,15 @@
+{
+	"/": [],
+	"/api/patients/[id]": [
+		"src/routes/api/patients/[id]/+server.js"
+	],
+	"/create-patient": [],
+	"/list-patients": [],
+	"/patients": [],
+	"/patients/[id]": [
+		"src/routes/patients/[id]/+page.server.js",
+		"src/routes/patients/[id]/+server.js"
+	],
+	"/patients/[id]/edit": [],
+	"/update-patient": []
+}
