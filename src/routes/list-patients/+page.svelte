@@ -97,7 +97,7 @@
       {#each patients as patient}
         <tr class="hover:bg-gray-50">
           <td class="border p-2">
-            <a href={`/patient/${patient.id}`} class="text-blue-600 hover:underline">
+            <a href={`/create-patient/${patient.id}`} class="text-blue-600 hover:underline">
               {patient.id}
             </a>
           </td>

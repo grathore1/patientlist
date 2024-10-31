@@ -35,7 +35,8 @@
       }],
       birthDate: birtDate,
       gender: gender,
-      telecom: phoneNumber ? [{ system: "phone", value: phoneNumber }] : undefined
+      telecom: phoneNumber ? [{ system: "phone", value: phoneNumber }] : undefined,
+      id: id
     };
 
     try {

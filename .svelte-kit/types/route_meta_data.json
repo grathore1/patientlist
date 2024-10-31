@@ -4,6 +4,7 @@
 		"src/routes/api/patients/[id]/+server.js"
 	],
 	"/create-patient": [],
+	"/create-patient/[id]": [],
 	"/list-patients": [],
 	"/patients": [],
 	"/patients/[id]": [
